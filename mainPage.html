@@ -3,6 +3,28 @@
         border-color: blueviolet;
         border-width: 5px;
         border-style: solid;
+        border-radius: 50%;
+    }
+    
+    .box {
+        border-style: solid;
+        border-color: black;
+        border-width: 5px;
+        text-align: center;
+    }
+    
+    .silver-box {
+        padding: 10px;
+        background-color: silver;
+        margin: 10px;
+    }
+    
+    #questionnaire {
+        background-color: palegoldenrod;
+    }
+    
+    .silver-background {
+        background-color: silver;
     }
     
     h1 {
@@ -46,7 +68,7 @@
 
         <img class="medium-image thin-purple-border" src="/Users/zhenyabudnyk/Downloads/Пленка 1/001685070020.jpg" alt="my photo">
 
-        <div>
+        <div class="silver-background">
 
             <ul id="traits-header">
                 <li>honest
@@ -78,7 +100,7 @@
         </form>
 
         <h3>Choose what type of collaboration are you interested in with me!</h3>
-        <form>
+        <form id="questionnaire">
             <label for="Programming">
                 <input id="Programming" value="Programming"type="radio" name="prog-ent" checked> Programming
             </label>
@@ -96,7 +118,7 @@
                 checkboxes, cool for choosing multiple out of multiple
             -->
 
-        <h2 id="anna-header">I Love Anna Budnyk, she is my small sister!</h2>
+        <h2 id="anna-header" class="box silver-box">I Love Anna Budnyk, she is my small sister!</h2>
 
 
     </main>
